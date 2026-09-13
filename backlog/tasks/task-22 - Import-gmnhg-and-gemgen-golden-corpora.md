@@ -4,6 +4,7 @@ title: Import gmnhg and gemgen golden corpora
 status: To Do
 assignee: []
 created_date: '2026-09-13 16:14'
+updated_date: '2026-09-13 16:34'
 labels: []
 milestone: m-3
 dependencies:
@@ -35,3 +36,8 @@ gmnhg ships eight .md/.gmi golden pairs (general_text, links, lists, tables, and
 - [ ] #4 The gmnhg links.gmi grouping (footnotes, then images, then links after a block) is either matched or its divergence is recorded in the DIVERGENCES section
 - [ ] #5 All imported cases pass in npm test
 <!-- AC:END -->
+
+## Definition of Done
+<!-- DOD:BEGIN -->
+- [ ] #1 New or updated npm packages and GitHub Actions use the latest released version; any older pin is justified in the task notes (for example a peer compatibility constraint)
+<!-- DOD:END -->

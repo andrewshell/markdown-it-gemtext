@@ -4,7 +4,7 @@ title: Scaffold the npm package
 status: To Do
 assignee: []
 created_date: '2026-09-13 16:09'
-updated_date: '2026-09-13 16:33'
+updated_date: '2026-09-13 16:34'
 labels: []
 milestone: m-0
 dependencies: []
@@ -43,3 +43,8 @@ Commit hygiene: the project uses Conventional Commits so that release-please (se
 - [ ] #8 LICENSE (MIT), .gitignore, .editorconfig, and a minimal README stub exist
 - [ ] #9 Every devDependency and every GitHub Action in the workflows is at its latest released version at the time of the task (check with npm outdated and the Actions marketplace), and the implementation notes list any deliberate exception with the compatibility reason
 <!-- AC:END -->
+
+## Definition of Done
+<!-- DOD:BEGIN -->
+- [ ] #1 New or updated npm packages and GitHub Actions use the latest released version; any older pin is justified in the task notes (for example a peer compatibility constraint)
+<!-- DOD:END -->

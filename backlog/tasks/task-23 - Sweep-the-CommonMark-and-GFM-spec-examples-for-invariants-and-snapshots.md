@@ -4,6 +4,7 @@ title: Sweep the CommonMark and GFM spec examples for invariants and snapshots
 status: To Do
 assignee: []
 created_date: '2026-09-13 16:14'
+updated_date: '2026-09-13 16:34'
 labels: []
 milestone: m-3
 dependencies:
@@ -41,3 +42,8 @@ Invariants: the renderer does not throw; validateGemtext reports no violations; 
 - [ ] #6 GFM extension examples (Tables 4.10, Task list items 5.3, Strikethrough 6.5, Autolinks 6.9) run under the same invariants
 - [ ] #7 The sweep completes in under ten seconds in CI
 <!-- AC:END -->
+
+## Definition of Done
+<!-- DOD:BEGIN -->
+- [ ] #1 New or updated npm packages and GitHub Actions use the latest released version; any older pin is justified in the task notes (for example a peer compatibility constraint)
+<!-- DOD:END -->

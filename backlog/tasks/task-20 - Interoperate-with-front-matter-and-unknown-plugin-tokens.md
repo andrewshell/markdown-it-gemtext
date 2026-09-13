@@ -4,6 +4,7 @@ title: Interoperate with front matter and unknown plugin tokens
 status: To Do
 assignee: []
 created_date: '2026-09-13 16:13'
+updated_date: '2026-09-13 16:34'
 labels: []
 milestone: m-2
 dependencies:
@@ -33,3 +34,8 @@ Two robustness concerns. First, static site sources begin with YAML (---) or TOM
 - [ ] #4 markdown-it-emoji, markdown-it-container, and markdown-it-attrs each render their example input without HTML tags in the output or validator violations
 - [ ] #5 Option onUnknownToken receives the token type once per type per render for diagnostics
 <!-- AC:END -->
+
+## Definition of Done
+<!-- DOD:BEGIN -->
+- [ ] #1 New or updated npm packages and GitHub Actions use the latest released version; any older pin is justified in the task notes (for example a peer compatibility constraint)
+<!-- DOD:END -->

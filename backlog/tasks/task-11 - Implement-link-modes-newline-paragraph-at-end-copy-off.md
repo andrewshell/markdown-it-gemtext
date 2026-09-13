@@ -4,6 +4,7 @@ title: 'Implement link modes: newline, paragraph, at-end, copy, off'
 status: To Do
 assignee: []
 created_date: '2026-09-13 16:12'
+updated_date: '2026-09-13 16:34'
 labels: []
 milestone: m-1
 dependencies:
@@ -42,3 +43,8 @@ Inline link handling inside lists and quotes is a separate task, but the design 
 - [ ] #7 Two links to the same URL in one paragraph produce two link lines in copy mode and two markers in paragraph mode (no deduplication unless option dedupeLinks is true)
 - [ ] #8 Link lines are separated from the preceding paragraph by one blank line in copy, paragraph, and at-end modes, and consecutive link lines have no blank lines between them
 <!-- AC:END -->
+
+## Definition of Done
+<!-- DOD:BEGIN -->
+- [ ] #1 New or updated npm packages and GitHub Actions use the latest released version; any older pin is justified in the task notes (for example a peer compatibility constraint)
+<!-- DOD:END -->

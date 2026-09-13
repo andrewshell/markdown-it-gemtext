@@ -4,6 +4,7 @@ title: 'Render bullet, ordered, nested, and task lists'
 status: To Do
 assignee: []
 created_date: '2026-09-13 16:11'
+updated_date: '2026-09-13 16:34'
 labels: []
 milestone: m-0
 dependencies:
@@ -38,3 +39,8 @@ Ordered lists: default renders "* " items with the number kept as text ("* 1. Fi
 - [ ] #7 Task list items render as "* [ ] text" and "* [x] text" when the markdown-it-task-lists plugin or equivalent is present, and option taskList false renders them without the box
 - [ ] #8 An empty list item renders as "*" followed by nothing, and the validator accepts the output
 <!-- AC:END -->
+
+## Definition of Done
+<!-- DOD:BEGIN -->
+- [ ] #1 New or updated npm packages and GitHub Actions use the latest released version; any older pin is justified in the task notes (for example a peer compatibility constraint)
+<!-- DOD:END -->

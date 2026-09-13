@@ -4,6 +4,7 @@ title: Validate output by round-tripping through the dioscuri gemtext parser
 status: To Do
 assignee: []
 created_date: '2026-09-13 16:14'
+updated_date: '2026-09-13 16:34'
 labels: []
 milestone: m-3
 dependencies:
@@ -34,3 +35,8 @@ Our own validator checks the grammar, but an independent parser catches disagree
 - [ ] #5 The same assertions pass with lineEnding "crlf"
 - [ ] #6 A failing assertion prints the Markdown input, our output, and the dioscuri node summary
 <!-- AC:END -->
+
+## Definition of Done
+<!-- DOD:BEGIN -->
+- [ ] #1 New or updated npm packages and GitHub Actions use the latest released version; any older pin is justified in the task notes (for example a peer compatibility constraint)
+<!-- DOD:END -->

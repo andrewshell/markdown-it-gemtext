@@ -4,6 +4,7 @@ title: Handle inline and block HTML
 status: To Do
 assignee: []
 created_date: '2026-09-13 16:13'
+updated_date: '2026-09-13 16:34'
 labels: []
 milestone: m-2
 dependencies:
@@ -33,3 +34,8 @@ Markdown documents contain HTML when markdown-it is created with html: true, and
 - [ ] #4 With htmlInline strip, <br> renders as a hard line break, <a href="u">t</a> goes through the link pipeline, and <img src alt> goes through the image pipeline
 - [ ] #5 Behaviour is identical whether markdown-it was created with html true or false, except that html false shows raw tags only in keep mode
 <!-- AC:END -->
+
+## Definition of Done
+<!-- DOD:BEGIN -->
+- [ ] #1 New or updated npm packages and GitHub Actions use the latest released version; any older pin is justified in the task notes (for example a peer compatibility constraint)
+<!-- DOD:END -->

@@ -4,6 +4,7 @@ title: 'Add inline formatting modes: markdown, plain, unicode'
 status: To Do
 assignee: []
 created_date: '2026-09-13 16:13'
+updated_date: '2026-09-13 16:34'
 labels: []
 milestone: m-2
 dependencies:
@@ -36,3 +37,8 @@ Gemtext has no emphasis, strong, code span, or strikethrough. Users split three 
 - [ ] #6 Nested emphasis (***both***) renders sensibly in every mode and never leaves unbalanced markers
 - [ ] #7 A code span containing backticks or gemtext prefixes renders without breaking the line type
 <!-- AC:END -->
+
+## Definition of Done
+<!-- DOD:BEGIN -->
+- [ ] #1 New or updated npm packages and GitHub Actions use the latest released version; any older pin is justified in the task notes (for example a peer compatibility constraint)
+<!-- DOD:END -->

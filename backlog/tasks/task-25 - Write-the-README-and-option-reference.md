@@ -4,6 +4,7 @@ title: Write the README and option reference
 status: To Do
 assignee: []
 created_date: '2026-09-13 16:14'
+updated_date: '2026-09-13 16:34'
 labels: []
 milestone: m-4
 dependencies:
@@ -36,3 +37,8 @@ The README is the product page for the plugin. It must let a markdown-it user go
 - [ ] #5 README has a comparison table against the five converters named in the research doc
 - [ ] #6 README documents loading markdown-it-front-matter, markdown-it-footnote, and linkify for the corresponding features
 <!-- AC:END -->
+
+## Definition of Done
+<!-- DOD:BEGIN -->
+- [ ] #1 New or updated npm packages and GitHub Actions use the latest released version; any older pin is justified in the task notes (for example a peer compatibility constraint)
+<!-- DOD:END -->

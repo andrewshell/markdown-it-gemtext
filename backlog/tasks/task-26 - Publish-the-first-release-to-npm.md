@@ -4,7 +4,7 @@ title: Automate versioning with release-please and document manual npm publishin
 status: To Do
 assignee: []
 created_date: '2026-09-13 16:14'
-updated_date: '2026-09-13 16:33'
+updated_date: '2026-09-13 16:34'
 labels: []
 milestone: m-4
 dependencies:
@@ -40,3 +40,8 @@ Confirm the package name is free on npm before the first release (the research f
 - [ ] #9 Installing the published package in a fresh project and rendering a sample file works from both ESM and CJS
 - [ ] #10 release-please-action and any other action in the release workflow use the latest major version tag, and the implementation notes list any deliberate exception with the reason
 <!-- AC:END -->
+
+## Definition of Done
+<!-- DOD:BEGIN -->
+- [ ] #1 New or updated npm packages and GitHub Actions use the latest released version; any older pin is justified in the task notes (for example a peer compatibility constraint)
+<!-- DOD:END -->

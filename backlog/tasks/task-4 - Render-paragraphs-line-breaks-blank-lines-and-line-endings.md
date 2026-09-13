@@ -4,6 +4,7 @@ title: 'Render paragraphs, line breaks, blank lines, and line endings'
 status: To Do
 assignee: []
 created_date: '2026-09-13 16:11'
+updated_date: '2026-09-13 16:34'
 labels: []
 milestone: m-0
 dependencies:
@@ -37,3 +38,8 @@ Markdown soft breaks inside a paragraph become a single space. Hard breaks (trai
 - [ ] #6 Backslash escapes (\\*, \\_, \\#) and HTML entities (&amp;, &copy;, &#35;) render as the literal characters
 - [ ] #7 Leading and trailing whitespace on a paragraph line is trimmed
 <!-- AC:END -->
+
+## Definition of Done
+<!-- DOD:BEGIN -->
+- [ ] #1 New or updated npm packages and GitHub Actions use the latest released version; any older pin is justified in the task notes (for example a peer compatibility constraint)
+<!-- DOD:END -->

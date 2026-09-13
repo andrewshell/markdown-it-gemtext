@@ -4,6 +4,7 @@ title: 'Render blockquotes, including nested quotes and quoted blocks'
 status: To Do
 assignee: []
 created_date: '2026-09-13 16:11'
+updated_date: '2026-09-13 16:34'
 labels: []
 milestone: m-0
 dependencies:
@@ -37,3 +38,8 @@ Nested quotes render as "> > text" (the inner prefix becomes part of the text, w
 - [ ] #6 A code block inside a quote renders as quote lines by default and as a separate preformatted block after the quote when option quotedCode is "preformat"
 - [ ] #7 Text after a quote is separated by exactly one blank line (md2gemini test_quote_with_text_after)
 <!-- AC:END -->
+
+## Definition of Done
+<!-- DOD:BEGIN -->
+- [ ] #1 New or updated npm packages and GitHub Actions use the latest released version; any older pin is justified in the task notes (for example a peer compatibility constraint)
+<!-- DOD:END -->

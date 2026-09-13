@@ -4,6 +4,7 @@ title: 'Place links correctly inside lists, quotes, headings, and nested blocks'
 status: To Do
 assignee: []
 created_date: '2026-09-13 16:13'
+updated_date: '2026-09-13 16:34'
 labels: []
 milestone: m-1
 dependencies:
@@ -37,3 +38,8 @@ Links inside a list item, a blockquote, a heading, or a table cell cannot be emi
 - [ ] #6 In at-end mode every link from every context appears once at the document end in source order
 - [ ] #7 A footnote marker counter inside nested contexts continues the document sequence without gaps or duplicates
 <!-- AC:END -->
+
+## Definition of Done
+<!-- DOD:BEGIN -->
+- [ ] #1 New or updated npm packages and GitHub Actions use the latest released version; any older pin is justified in the task notes (for example a peer compatibility constraint)
+<!-- DOD:END -->

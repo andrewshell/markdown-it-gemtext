@@ -4,6 +4,7 @@ title: Render headings with a policy for levels four to six
 status: To Do
 assignee: []
 created_date: '2026-09-13 16:11'
+updated_date: '2026-09-13 16:34'
 labels: []
 milestone: m-0
 dependencies:
@@ -35,3 +36,8 @@ Default policy: clamp to ### (what md2gmi does). Alternatives to offer as an opt
 - [ ] #5 A heading is preceded and followed by exactly one blank line (except at document start), matching gemgen default spacing
 - [ ] #6 An empty heading (#) renders as "#" with no trailing space
 <!-- AC:END -->
+
+## Definition of Done
+<!-- DOD:BEGIN -->
+- [ ] #1 New or updated npm packages and GitHub Actions use the latest released version; any older pin is justified in the task notes (for example a peer compatibility constraint)
+<!-- DOD:END -->

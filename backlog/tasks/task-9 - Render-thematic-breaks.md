@@ -4,6 +4,7 @@ title: Render thematic breaks
 status: To Do
 assignee: []
 created_date: '2026-09-13 16:11'
+updated_date: '2026-09-13 16:34'
 labels: []
 milestone: m-0
 dependencies:
@@ -31,3 +32,8 @@ Gemtext has no horizontal rule. Render Markdown thematic breaks (---, ***, ___) 
 - [ ] #3 The plugin throws at configuration time if hr starts with =>, ```, #, "* ", or >, with a message naming the option
 - [ ] #4 Three thematic breaks in a row render as three separator lines each separated by one blank line
 <!-- AC:END -->
+
+## Definition of Done
+<!-- DOD:BEGIN -->
+- [ ] #1 New or updated npm packages and GitHub Actions use the latest released version; any older pin is justified in the task notes (for example a peer compatibility constraint)
+<!-- DOD:END -->

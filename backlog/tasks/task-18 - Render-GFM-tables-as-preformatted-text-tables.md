@@ -4,6 +4,7 @@ title: Render GFM tables as preformatted text tables
 status: To Do
 assignee: []
 created_date: '2026-09-13 16:13'
+updated_date: '2026-09-13 16:34'
 labels: []
 milestone: m-2
 dependencies:
@@ -37,3 +38,8 @@ Gemtext has no tables. The converter convention is a preformatted block with alt
 - [ ] #6 Links inside cells keep their text in the cell and emit link lines after the table
 - [ ] #7 Every cell of a ragged table (rows with fewer cells than the header) is padded so the table is rectangular
 <!-- AC:END -->
+
+## Definition of Done
+<!-- DOD:BEGIN -->
+- [ ] #1 New or updated npm packages and GitHub Actions use the latest released version; any older pin is justified in the task notes (for example a peer compatibility constraint)
+<!-- DOD:END -->

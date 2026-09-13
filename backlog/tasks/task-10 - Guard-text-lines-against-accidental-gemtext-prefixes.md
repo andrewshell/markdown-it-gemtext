@@ -4,6 +4,7 @@ title: Guard text lines against accidental gemtext prefixes
 status: To Do
 assignee: []
 created_date: '2026-09-13 16:11'
+updated_date: '2026-09-13 16:34'
 labels: []
 milestone: m-0
 dependencies:
@@ -38,3 +39,8 @@ Options worth evaluating: prefix a single space (a leading space defeats every p
 - [ ] #5 Option textGuard selects the strategy ("space" default, "zwsp", "none") and the README limitation section explains the trade-off
 - [ ] #6 The guard is not applied inside preformatted blocks, real quote lines, or real list items
 <!-- AC:END -->
+
+## Definition of Done
+<!-- DOD:BEGIN -->
+- [ ] #1 New or updated npm packages and GitHub Actions use the latest released version; any older pin is justified in the task notes (for example a peer compatibility constraint)
+<!-- DOD:END -->

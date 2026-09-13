@@ -4,6 +4,7 @@ title: Build the fixture-driven test harness and gemtext line validator
 status: To Do
 assignee: []
 created_date: '2026-09-13 16:11'
+updated_date: '2026-09-13 16:34'
 labels: []
 milestone: m-0
 dependencies:
@@ -39,3 +40,8 @@ The validator classifies each output line per the spec ABNF (link, preformat tog
 - [ ] #5 A test helper asserts validateGemtext returns no violations for a given rendered output, used by later tasks as a one-line invariant
 - [ ] #6 Fixture files live under test/fixtures with a README explaining both formats and the options header
 <!-- AC:END -->
+
+## Definition of Done
+<!-- DOD:BEGIN -->
+- [ ] #1 New or updated npm packages and GitHub Actions use the latest released version; any older pin is justified in the task notes (for example a peer compatibility constraint)
+<!-- DOD:END -->

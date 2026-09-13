@@ -4,6 +4,7 @@ title: Render images as link lines
 status: To Do
 assignee: []
 created_date: '2026-09-13 16:13'
+updated_date: '2026-09-13 16:34'
 labels: []
 milestone: m-1
 dependencies:
@@ -33,3 +34,8 @@ Gemtext has no images; the convention is a link line to the image URL with the a
 - [ ] #5 Option imageLabel "alt" (default) or "title" chooses the label source, falling back to alt when title is absent
 - [ ] #6 linkMode "off" drops the image link line and keeps only the alt text inline
 <!-- AC:END -->
+
+## Definition of Done
+<!-- DOD:BEGIN -->
+- [ ] #1 New or updated npm packages and GitHub Actions use the latest released version; any older pin is justified in the task notes (for example a peer compatibility constraint)
+<!-- DOD:END -->

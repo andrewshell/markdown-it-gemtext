@@ -4,6 +4,7 @@ title: 'Handle autolinks, linkify URLs, reference links, and link titles'
 status: To Do
 assignee: []
 created_date: '2026-09-13 16:13'
+updated_date: '2026-09-13 16:34'
 labels: []
 milestone: m-1
 dependencies:
@@ -35,3 +36,8 @@ Markdown produces links through more than the [text](url) syntax. Angle-bracket 
 - [ ] #5 Option linkLabel "text" (default) or "title" uses the link title as the link line label when present, falling back to text
 - [ ] #6 A paragraph that is only a bare linkified URL renders as a single link line, not a text line plus a link line
 <!-- AC:END -->
+
+## Definition of Done
+<!-- DOD:BEGIN -->
+- [ ] #1 New or updated npm packages and GitHub Actions use the latest released version; any older pin is justified in the task notes (for example a peer compatibility constraint)
+<!-- DOD:END -->

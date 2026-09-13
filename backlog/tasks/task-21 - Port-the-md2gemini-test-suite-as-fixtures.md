@@ -4,6 +4,7 @@ title: Port the md2gemini test suite as fixtures
 status: To Do
 assignee: []
 created_date: '2026-09-13 16:14'
+updated_date: '2026-09-13 16:34'
 labels: []
 milestone: m-3
 dependencies:
@@ -40,3 +41,8 @@ A local clone of the tests was reviewed during planning: test_base_url, test_cod
 - [ ] #4 Every deliberate divergence from md2gemini output is listed with a reason in test/fixtures/README under a DIVERGENCES heading
 - [ ] #5 The whole ported suite runs in the normal npm test invocation
 <!-- AC:END -->
+
+## Definition of Done
+<!-- DOD:BEGIN -->
+- [ ] #1 New or updated npm packages and GitHub Actions use the latest released version; any older pin is justified in the task notes (for example a peer compatibility constraint)
+<!-- DOD:END -->

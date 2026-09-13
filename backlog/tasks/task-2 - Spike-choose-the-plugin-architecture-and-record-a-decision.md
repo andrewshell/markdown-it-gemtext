@@ -4,6 +4,7 @@ title: 'Spike: choose the plugin architecture and record a decision'
 status: To Do
 assignee: []
 created_date: '2026-09-13 16:11'
+updated_date: '2026-09-13 16:34'
 labels: []
 milestone: m-0
 dependencies:
@@ -38,3 +39,8 @@ Prototype only headings and paragraphs, enough to feel the ergonomics. Throw the
 - [ ] #4 The decision states how the plugin coexists with other markdown-it plugins that add token types (unknown tokens must degrade to text, not throw)
 - [ ] #5 A minimal prototype proves md.use(gemtext) then md.render("# Hi\\n\\nText") yields "# Hi\\n\\nText\\n" under the chosen shape
 <!-- AC:END -->
+
+## Definition of Done
+<!-- DOD:BEGIN -->
+- [ ] #1 New or updated npm packages and GitHub Actions use the latest released version; any older pin is justified in the task notes (for example a peer compatibility constraint)
+<!-- DOD:END -->

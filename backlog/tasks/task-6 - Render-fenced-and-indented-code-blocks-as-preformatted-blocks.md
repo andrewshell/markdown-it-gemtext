@@ -4,6 +4,7 @@ title: Render fenced and indented code blocks as preformatted blocks
 status: To Do
 assignee: []
 created_date: '2026-09-13 16:11'
+updated_date: '2026-09-13 16:34'
 labels: []
 milestone: m-0
 dependencies:
@@ -37,3 +38,8 @@ Fenced blocks carry an info string (language) that maps naturally to the preform
 - [ ] #6 A code block is followed by exactly one blank line before the next block, even when the source has none or several
 - [ ] #7 Only the first word of the info string is used as alt text when option codeAltFullInfo is false (default); the full info string is used when true
 <!-- AC:END -->
+
+## Definition of Done
+<!-- DOD:BEGIN -->
+- [ ] #1 New or updated npm packages and GitHub Actions use the latest released version; any older pin is justified in the task notes (for example a peer compatibility constraint)
+<!-- DOD:END -->

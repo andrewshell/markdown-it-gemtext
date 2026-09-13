@@ -4,7 +4,7 @@ title: Scaffold the npm package
 status: To Do
 assignee: []
 created_date: '2026-09-13 16:09'
-updated_date: '2026-09-13 16:29'
+updated_date: '2026-09-13 16:33'
 labels: []
 milestone: m-0
 dependencies: []
@@ -41,4 +41,5 @@ Commit hygiene: the project uses Conventional Commits so that release-please (se
 - [ ] #6 A GitHub Actions workflow runs build, typecheck, lint, and test on push and pull request against Node 20, 22, and 24, and a separate job validates the pull request title against Conventional Commits
 - [ ] #7 CONTRIBUTING.md documents the commit format with examples of feat, fix, docs, chore, and breaking-change footers, and explains that release-please derives versions from them
 - [ ] #8 LICENSE (MIT), .gitignore, .editorconfig, and a minimal README stub exist
+- [ ] #9 Every devDependency and every GitHub Action in the workflows is at its latest released version at the time of the task (check with npm outdated and the Actions marketplace), and the implementation notes list any deliberate exception with the compatibility reason
 <!-- AC:END -->

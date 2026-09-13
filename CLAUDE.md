@@ -22,3 +22,7 @@ Do not edit Backlog task, draft, document, decision, or milestone markdown files
 
 </CRITICAL_INSTRUCTION>
 <!-- BACKLOG.MD GUIDELINES END -->
+
+## Dependencies
+
+Use the latest released version of npm packages and GitHub Actions when adding or updating them. Pin an older version only for a specific reason such as peer compatibility, and record that reason in the task's implementation notes.
